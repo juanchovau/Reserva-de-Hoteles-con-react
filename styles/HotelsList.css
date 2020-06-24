@@ -1,0 +1,113 @@
+.listContent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.hotelsList{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #EDE8EC;
+    overflow: hidden;
+
+    padding-bottom: 15px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card p{
+    margin: 0 10px;
+    font-size: 12px;
+}
+.ciudad{
+    background-color: #B51764 ;
+    color: white;
+    width: 150px;
+    text-align: right;
+    transform: translate(130px, -290px);
+    border-top-right-radius: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+   
+}
+.nombreYPrecio{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.nombre::before{
+    content: "";
+    padding: 3px;
+    margin-right: 2px;
+    background-color: #B51764;
+}
+.precio{
+    background-color: #A09DA0;
+    width: 80px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.tamanio{
+    padding-top: 10px;
+}
+.tamanio::before{
+content: url("../images/sleep.svg");
+width: 5px;
+height: 5px;
+
+}
+.botonConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.boton{
+    border: none;
+    width: 80%;
+    height: 25px;
+    align-self: center;
+    background-color: #B51764;
+    color: white;
+    border-radius: 15px;
+    transition: all 1s;
+    
+}
+.boton:hover{
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(179,173,179,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(179,173,179,1);
+box-shadow: 1px 1px 10px 0px rgb(36, 35, 35);
+background-color: #ec318c;
+width: 100%;
+height: 27px;
+
+}
+.hotelsList:empty {
+    grid-template-columns: 1fr;
+    height: 100px;
+    width: 70%;
+    text-align: center;
+  }
+.hotelsList:empty::before{
+
+content: "No hay resultados, prueba cambiando los filtros";
+color: #B51764;
+font-size: 30px;
+  }
