@@ -52,7 +52,8 @@ const hoteles =[
      availabilityFrom: today.valueOf(),
      availabilityTo: today.valueOf() + 864000000, // 10 days
   },
-  {nombre:"GHL Hotel Capital",
+  { 
+    nombre:"GHL Hotel Capital",
     descripcion:"Emplazado en la ciudad de Bogotá se encuentra el GHL Hotel Capital, un lujoso alojamiento de 5 estrellas que se caracteriza por su estilo moderno y urbano.",
     ciudad:"Bogotá",
     pais:"Colombia",
@@ -77,7 +78,8 @@ const hoteles =[
     tamanio: 11,
     ciudad: 'Buenos Aires',
     pais: 'Argentina',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:6,
   },
   {
     slug: 'sainte-jeanne',
@@ -91,7 +93,8 @@ const hoteles =[
     tamanio: 23,
     ciudad: 'Mar del Plata',
     pais: 'Argentina',
-    precio: "$$"
+    precio: "$$",
+    id:7,
   },
   {
     slug: 'entre-cielos',
@@ -105,7 +108,8 @@ const hoteles =[
     tamanio: 16,
     ciudad: 'Mendoza',
     pais: 'Argentina',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:8,
   },
   {
     slug: 'huacalera',
@@ -119,7 +123,8 @@ const hoteles =[
     tamanio: 32,
     ciudad: 'Jujuy',
     pais: 'Argentina',
-    precio: "$"
+    precio: "$",
+    id:9,
   },
   {
     slug: 'merced-del-alto',
@@ -133,7 +138,8 @@ const hoteles =[
     tamanio: 14,
     ciudad: 'Salta',
     pais: 'Argentina',
-    precio: "$$"
+    precio: "$$",
+    id:10,
   },
   {
     slug: 'azur-real',
@@ -147,7 +153,8 @@ const hoteles =[
     tamanio: 16,
     ciudad: 'Córdoba',
     pais: 'Argentina',
-    precio: "$"
+    precio: "$",
+    id:11,
   },
   {
     slug: 'rincon-del-socorro',
@@ -161,7 +168,8 @@ const hoteles =[
     tamanio: 11,
     ciudad: 'Corrientes',
     pais: 'Argentina',
-    precio: "$$"
+    precio: "$$",
+    id:12,
   },
   {
     slug: 'luma-casa-de-montana',
@@ -175,7 +183,8 @@ const hoteles =[
     tamanio: 8,
     ciudad: 'Villa La Angostura',
     pais: 'Argentina',
-    precio: "$$"
+    precio: "$$",
+    id:13,
   },
   {
     slug: 'casa-turquesa',
@@ -189,7 +198,8 @@ const hoteles =[
     tamanio: 9,
     ciudad: 'Río de Janeiro',
     pais: 'Brasil',
-    precio: "$$$"
+    precio: "$$$",
+    id:14,
   },
   {
     slug: 'vila-da-santa',
@@ -203,7 +213,8 @@ const hoteles =[
     tamanio: 19,
     ciudad: 'Buzios',
     pais: 'Brasil',
-    precio: "$$$"
+    precio: "$$$",
+    id:15,
   },
   {
     slug: 'uxua-casa',
@@ -217,7 +228,8 @@ const hoteles =[
     tamanio: 11,
     ciudad: 'Bahía',
     pais: 'Brasil',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:16,
   },
   {
     slug: 'ponta-dos-ganchos',
@@ -231,7 +243,8 @@ const hoteles =[
     tamanio: 25,
     ciudad: 'Santa Catarina',
     pais: 'Brasil',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:17,
   },
   {
     slug: 'alto-atacama',
@@ -245,7 +258,8 @@ const hoteles =[
     tamanio: 42,
     ciudad: 'San Pedro de Atacama',
     pais: 'Chile',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:18,
   },
   {
     slug: 'tierra-patagonia',
@@ -259,7 +273,8 @@ const hoteles =[
     tamanio: 40,
     ciudad: 'Torres del Paine',
     pais: 'Chile',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:19,
   },
   {
     slug: 'vira-vira',
@@ -273,7 +288,8 @@ const hoteles =[
     tamanio: 21,
     ciudad: 'Pucón',
     pais: 'Chile',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:20,
   },
   {
     slug: 'vik-chile',
@@ -287,7 +303,8 @@ const hoteles =[
     tamanio: 22,
     ciudad: 'Millahue',
     pais: 'Chile',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:21,
   },
   {
     slug: 'casa-higueras',
@@ -301,7 +318,8 @@ const hoteles =[
     tamanio: 20,
     ciudad: 'Valparaíso',
     pais: 'Chile',
-    precio: "$$$$"
+    precio: "$$$$",
+    id:22,
   },
   {
     slug: 'campo-tinto',
@@ -315,6 +333,7 @@ const hoteles =[
     tamanio: 4,
     ciudad: 'Colonia',
     pais: 'Uruguay',
-    precio: "$"
+    precio: "$",
+    id:23,
   }
 ]
